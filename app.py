@@ -54,7 +54,7 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/data/', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         file = request.files['file']
@@ -64,6 +64,12 @@ def upload_file():
             emotions = process(filename)
             return emotions, 201
     return
+
+
+@app.route('/', methods=['GET'])
+def hello():
+    return "hello",201
+
 
 
 if __name__ == '__main__':
