@@ -6,8 +6,7 @@ imutils==0.5.2
 numpy==1.14.6
 opencv-python==3.4.4.19
 pandas==0.23.4
-pip==19.0.2
-requests==2.18.4
+requests
 scikit-learn==0.20.1
 scipy==1.1.0
 setuptools==40.6.3
@@ -15,4 +14,4 @@ six==1.12.0
 sklearn==0.0
 tensorboard==1.12.1
 tensorflow
-urllib3==1.22
+urllib3
