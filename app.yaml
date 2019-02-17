@@ -1,2 +1,42 @@
 runtime: python37
 instance_class: F4_1G
+
+libraries:
+- name: Flask
+  version: "1.0.2"
+- name: Keras
+  version: "2.2.4"
+- name: Pillow
+  version: "5.3.0"
+- name: Keras
+  version: "2.2.4"
+- name: Werkzeug
+  version: "0.14.1"
+- name: imutils
+  version: "0.5.2"
+- name: numpy
+  version: "1.14.6"
+- name: opencv-python
+  version: "3.4.4.19"
+- name: pandas
+  version: "0.23.4"
+- name: requests
+  version: "latest"
+- name: scikit-learn
+  version: "0.20.1"
+- name: scipy
+  version: "1.1.0"
+- name: six
+  version: "1.12.0"
+- name: sklearn
+  version: "0.0"
+- name: tensorboard
+  version: "1.12.1"
+- name: tensorflow
+  version: "latest"
+- name: urllib3
+  version: "latest"
+
+
+  
+
